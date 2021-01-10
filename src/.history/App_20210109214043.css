@@ -1,0 +1,7 @@
+nav {
+  display: flex;
+  align-items: left;
+  min-height: 5vh;
+  background: black;
+  color: white;
+}

@@ -1,0 +1,43 @@
+ul,
+li,
+h2,
+p,
+div {
+  font: 12px "Andale Mono", "Andale Mono WT", Consolas, sans-serif;
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-size: 12px;
+  line-height: normal;
+  font-family: "Andale Mono", "Andale Mono WT", Consolas, sans-serif;
+  color: #676767;
+}
+
+.nav {
+  display: block;
+  align-items: left;
+  min-height: 5vh;
+  color: black;
+}
+
+.words {
+  padding-right: 20px;
+}
+
+.nav-links {
+  padding-right: 20px;
+  width: 50%;
+  align-items: left;
+  display: flex;
+  list-style: none;
+}
+
+.logo {
+  width: 50%;
+  align-items: left;
+  list-style: none;
+}

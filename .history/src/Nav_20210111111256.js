@@ -10,10 +10,10 @@ function Nav() {
             <Link to = "/"><p className = "home">Home</p></Link>            </h2>
             <h2 className = 'words'> 
                 <Link to = "/resume"><p className = "resume">Resume</p></Link>
-                <HashLink to = "/resume#education" style = {{textDecoration: 'none'}}><p style = {{color: "blue"}}>Education</p></HashLink>
-                <HashLink to = "/resume#skills" style = {{textDecoration: 'none'}}><p style = {{color: "blue"}}>Skills</p></HashLink>
-                <HashLink to = "/resume#experience" style = {{textDecoration: 'none'}}><p style = {{color: "blue"}}>Experience</p></HashLink>                
-                <HashLink to = "/resume#leadership" style = {{textDecoration: 'none'}}><p style = {{color: "blue"}}>Leadership</p></HashLink>
+                <HashLink to = "/resume#education" style = {{textDecoration = none}}><p style = {{color: "blue"}}>Education</p></HashLink>
+                <HashLink to = "/resume#skills"><p style = {{color: "blue"}}>Skills</p></HashLink>
+                <HashLink to = "/resume#experience"><p style = {{color: "blue"}}>Experience</p></HashLink>                
+                <HashLink to = "/resume#leadership"><p style = {{color: "blue"}}>Leadership</p></HashLink>
                 <p className = "pdf" style = {{color: "blue"}}>Load as PDF</p>
             </h2>
             <h2 className = 'words'> 

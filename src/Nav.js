@@ -1,5 +1,6 @@
 import {Link} from 'react-router-dom';
 import './App.css';
+import {HashLink} from 'react-router-hash-link'
 
 function Nav() {
   return (
@@ -9,10 +10,10 @@ function Nav() {
             <Link to = "/"><p className = "home">Home</p></Link>            </h2>
             <h2 className = 'words'> 
                 <Link to = "/resume"><p className = "resume">Resume</p></Link>
-                <p style = {{color: "blue"}}>Education</p>
-                <p style = {{color: "blue"}}>Experience</p>
-                <p style = {{color: "blue"}}>Skills</p>
-                <p className = "leadership"style = {{color: "blue"}}>Leadership</p>
+                <HashLink to = "/resume#education"><p style = {{color: "blue"}}>Education</p></HashLink>
+                <HashLink to = "/resume#skills"><p style = {{color: "blue"}}>Skills</p></HashLink>
+                <HashLink to = "/resume#experience"><p style = {{color: "blue"}}>Experience</p></HashLink>                
+                <HashLink to = "/resume#leadership"><p style = {{color: "blue"}}>Leadership</p></HashLink>
                 <p className = "pdf" style = {{color: "blue"}}>Load as PDF</p>
             </h2>
             <h2 className = 'words'> 

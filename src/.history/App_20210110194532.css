@@ -16,7 +16,7 @@ div {
 }
 
 .boody {
-  max-width: 100%;
+  max-width: 60%;
   align-items: center;
 }
 
@@ -129,15 +129,13 @@ div {
   align-items: center;
   align-content: center;
   background-image: url(./DSC_0359.JPG);
-  background-position: center;
-  background-size: cover;
 }
 
 .japan-video {
   position: relative;
   width: 100%;
   overflow: hidden;
-  padding-top: calc(9 / 16 * 100%);
+  padding-top: calc(9 / 21 * 100%);
 }
 
 .card {

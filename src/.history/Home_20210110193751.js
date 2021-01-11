@@ -6,7 +6,7 @@ function Home() {
     <div>
     <div className = "videogrid-2">
         <div className = "japan-video">
-          
+          <iframe title = "Treasure" className = "responsive-iframe" src="https://www.youtube.com/embed/9zNOZoHwVP8?start=34" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>    
         </div>  
       </div>
     <div className = "kobe">

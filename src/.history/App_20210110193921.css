@@ -112,15 +112,14 @@ div {
   left: 0;
   bottom: 0;
   right: 0;
-  width: 90%;
+  width: 100%;
   height: 100%;
   border: none;
-  margin: 0;
 }
 
 .videogrid-2 {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-template-rows: 1fr;
   grid-gap: 20px;
   min-height: 20vh;
@@ -128,9 +127,8 @@ div {
   justify-items: center;
   align-items: center;
   align-content: center;
-  background-image: url(./DSC_0359.JPG);
-  background-position: center;
-  background-size: cover;
+  background-color: #a26769;
+  padding-bottom: 20px;
 }
 
 .japan-video {

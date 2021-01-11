@@ -3,10 +3,9 @@ import './App.css';
 
 function Home() {
   return (
-    <div>
     <div className = "videogrid-2">
         <div className = "japan-video">
-          
+          <iframe title = "Treasure" className = "responsive-iframe" src="https://www.youtube.com/embed/9zNOZoHwVP8?start=34" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>    
         </div>  
       </div>
     <div className = "kobe">
@@ -31,7 +30,6 @@ function Home() {
 <br></br><br></br>
 Outside of school and work, I spend most of my time outdoors, either working on my golf game, hiking, or practicing photography. I also enjoy playing guitar and am a diehard Golden State Warriors fan
       </p>
-    </div>
     </div>
   );
 }

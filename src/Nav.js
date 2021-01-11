@@ -1,4 +1,4 @@
-
+import {Link} from 'react-router-dom';
 import './App.css';
 
 function Nav() {
@@ -6,9 +6,9 @@ function Nav() {
     <div>
         <div className = 'nav-links'>
             <h2 className = 'words'> 
-            <p className = "home">Home</p>            </h2>
+            <Link to = "/"><p className = "home">Home</p></Link>            </h2>
             <h2 className = 'words'> 
-                <p className = "resume">Resume</p>
+                <Link to = "/resume"><p className = "resume">Resume</p></Link>
                 <p style = {{color: "blue"}}>Education</p>
                 <p style = {{color: "blue"}}>Experience</p>
                 <p style = {{color: "blue"}}>Skills</p>
@@ -16,13 +16,12 @@ function Nav() {
                 <p className = "pdf" style = {{color: "blue"}}>Load as PDF</p>
             </h2>
             <h2 className = 'words'> 
-            <p className = "projects">Projects</p>
+            <Link to = "/projects"><p className = "projects">Projects</p></Link>
             <p style = {{color: "blue"}}>2048</p>
             <p style = {{color: "blue"}}>urafterhours</p>
             </h2>
             <h2 className = 'words'> 
-            <p className = "gallery">Gallery</p>
-            <p className = "city"style = {{color: "blue"}}>Walnut Creek</p>
+            <Link to = "/photos"><p className = "gallery">Gallery</p></Link>            <p className = "city"style = {{color: "blue"}}>Walnut Creek</p>
             <p  className = "city"style = {{color: "blue"}}>San Francisco</p>
             </h2>
         

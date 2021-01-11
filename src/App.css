@@ -30,6 +30,14 @@ div {
   margin-bottom: 1.5em;
 }
 
+.resume:hover {
+  font-weight: bold;
+  background-color: blue;
+  text-decoration-color: white;
+  text-decoration-thickness: 6px;
+  color: white;
+}
+
 .pdf {
   line-height: normal;
 }
@@ -47,9 +55,19 @@ div {
   color: "black";
   line-height: 0.7;
   text-decoration: underline;
-  text-decoration-thickness: 6px;
+  text-decoration-thickness: 3px;
   text-decoration-color: #ff5349;
   margin-bottom: 1.5em;
+}
+
+.home:hover {
+  background-color: #ff5349;
+  text-decoration-color: white;
+  font-weight: bold;
+}
+
+.home:active {
+  font-weight: bold;
 }
 
 .gallery {
@@ -59,6 +77,12 @@ div {
   text-decoration-thickness: 3px;
   text-decoration-color: gold;
   margin-bottom: 1.5em;
+}
+
+.gallery:hover {
+  background-color: gold;
+  text-decoration-color: white;
+  font-weight: bold;
 }
 
 .header {
@@ -86,6 +110,13 @@ div {
   text-decoration-thickness: 3px;
   text-decoration-color: #62c6f2;
   margin-bottom: 1.5em;
+}
+
+.projects:hover {
+  font-weight: bold;
+  background-color: #62c6f2;
+  text-decoration-color: white;
+  text-decoration-thickness: 6px;
 }
 
 .download {

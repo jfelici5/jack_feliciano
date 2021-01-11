@@ -132,8 +132,7 @@ function Resume() {
     </ul>
     </div>
   </div>
-  <br id = "leadership"></br>
-  <h2 className = "header"style = {{fontSize: 20 + 'px'}}><strong>LEADERSHIP</strong></h2>
+  <h2 className = "header" id = "leadership" style = {{fontSize: 20 + 'px'}}><strong>LEADERSHIP</strong></h2>
   <hr className = "social-line"></hr>
 
   <div className = "kobe">

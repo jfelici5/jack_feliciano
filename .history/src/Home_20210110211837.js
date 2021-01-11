@@ -1,6 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
-import $ from 'jquery';
+import $ from jquery;
+
+$(document).ready(function () {
+  console.log("current page", window.location.href);
+  $("[href]").each(function () {
+      $('a[href]:not([href=#])').each(function () {
+
+          if (window.location.href.indexOf($(this).attr('href')) > -1) {
+              console.log($(this).attr('href') +" is active ");
+              $(this).addClass('active');
+          }
+          else {
+              console.log($(this).attr('href') + "is not active ");
+          }
+      });
+  });
+});
 
 function Home() {
   return (

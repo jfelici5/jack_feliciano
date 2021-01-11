@@ -1,9 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
 
-function Home() {
+function Resume() {
   return (
+    <div>
     <div className = "kobe">
+    <div className = "socials">
+    <ul className = "card">
+    <li className = "item" style = {{fontSize: 17 + 'px'}}><strong>EDUCATION</strong></li>      
+      <li className = "item" >August 2019 - May 2023</li>
+      <li className = "item" >Rochester, NY</li>
+    </ul>
+    
+    </div>
+    <div className = "socials">
+    <ul className = "card">
+    <br></br><br></br><li className = "item" style = {{fontSize: 17 + 'px'}}><strong>University of Rochester</strong></li>
+    </ul>
+    </div>
+  </div>
+      <div className = "kobe">
       <div className = "socials">
       <ul className = "card">
         <li className = "item" style = {{fontSize: 17 + 'px'}}><strong>JACK FELICIANO</strong></li>
@@ -14,10 +30,10 @@ function Home() {
       <hr className = "social-line"></hr>
       <ul className = "card">
         <li className = "item" style = {{fontSize: 17 + 'px'}}><strong>CONNECT WITH ME</strong></li>
-        <li className = "item"><a className = "item"href="mailto:jfelici5@u.rochester.edu" target="_blank">email</a></li>
-        <li className = "item"><a className = "item"href="https://github.com/jfelici5" target="_blank">github</a></li>
-        <li className = "item"><a className = "item"href="https://www.linkedin.com/in/jack-feliciano/" target="_blank">linkedin</a></li>
-        <li className = "item"><a className = "item" href = "https://vsco.co/jack-feliciano/gallery" target = "_blank">vsco</a></li>
+        <li className = "item">email</li>
+        <li className = "item">github</li>
+        <li className = "item">linkedin</li>
+        <li className = "item">vsco</li>
       </ul>
       </div>
       <p className = "about-me">
@@ -26,7 +42,8 @@ function Home() {
 Outside of school and work, I spend most of my time outdoors, either working on my golf game, hiking, or practicing photography. I also enjoy playing guitar and am a diehard Golden State Warriors fan
       </p>
     </div>
+    </div>
   );
 }
 
-export default Home;
+export default Resume;

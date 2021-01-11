@@ -40,7 +40,7 @@ function Resume() {
     </div>
 
   </div>
-  <h2 className = "header" style = {{fontSize: 20 + 'px'}}><strong>SKILLS</strong></h2>
+  <h2 className = "header" style = {{fontSize: 20 + 'px'}}>SKILLS</h2>
   <hr className = "social-line"></hr>
 
   <div className = "kobe">

@@ -3,22 +3,9 @@ import './App.css';
 function Resume() {
   return (
     <div>
-            <div className = "kobe">
-    <div className = "info">
-    <ul className = "card">
-<li className = "item" style = {{fontSize: 20 + 'px'}}><strong>EDUCATION</strong></li>
-    
-    </ul>
-    </div>
-    <div className = "socials-2">
-      
-    <ul className = "card">    
-      <li className = "item-1" >Download as PDF</li>
-    </ul>
-    </div>
-
-  </div>
-        <hr className = "social-line-1"></hr>
+        <p style = {{color: "blue"}}>Download as PDF</p>
+        <h2 className = "header" style = {{fontSize: 20 + 'px'}}><strong>EDUCATION</strong></h2>
+        <hr className = "social-line"></hr>
 
     <div className = "kobe">
     <div className = "info">

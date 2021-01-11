@@ -3,7 +3,7 @@ import './App.css';
 function Resume() {
   return (
     <div>
-            <div className = "kobe">
+        <div className = "kobe">
     <div className = "info">
     <ul className = "card">
 <li className = "item" style = {{fontSize: 20 + 'px'}}><strong>EDUCATION</strong></li>
@@ -13,12 +13,12 @@ function Resume() {
     <div className = "socials-2">
       
     <ul className = "card">    
-      <li className = "item-1" >Download as PDF</li>
+      <li className = "item" >Download as PDF</li>
     </ul>
     </div>
 
   </div>
-        <hr className = "social-line-1"></hr>
+        <hr className = "social-line"></hr>
 
     <div className = "kobe">
     <div className = "info">

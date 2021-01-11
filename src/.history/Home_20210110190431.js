@@ -17,7 +17,7 @@ function Home() {
         <li className = "item"><a className = "item"href="mailto:jfelici5@u.rochester.edu" target="_blank">email</a></li>
         <li className = "item"><a className = "item"href="https://github.com/jfelici5" target="_blank">github</a></li>
         <li className = "item"><a className = "item"href="https://www.linkedin.com/in/jack-feliciano/" target="_blank">linkedin</a></li>
-        <li className = "item"><a className = "item" href = "https://vsco.co/jack-feliciano/gallery" target = "_blank">vsco</a></li>
+        <li className = "item">vsco</li>
       </ul>
       </div>
       <p className = "about-me">

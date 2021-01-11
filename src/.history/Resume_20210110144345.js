@@ -3,22 +3,9 @@ import './App.css';
 function Resume() {
   return (
     <div>
-            <div className = "kobe">
-    <div className = "info">
-    <ul className = "card">
-<li className = "item" style = {{fontSize: 20 + 'px'}}><strong>EDUCATION</strong></li>
-    
-    </ul>
-    </div>
-    <div className = "socials-2">
-      
-    <ul className = "card">    
-      <li className = "item-1" >Download as PDF</li>
-    </ul>
-    </div>
-
-  </div>
-        <hr className = "social-line-1"></hr>
+        <p style = {{color: "blue"}}>Download as PDF</p>
+        <h2 className = "header" style = {{fontSize: 20 + 'px'}}><strong>EDUCATION</strong></h2>
+        <hr className = "social-line"></hr>
 
     <div className = "kobe">
     <div className = "info">
@@ -107,7 +94,7 @@ function Resume() {
     </div>
     <div className = "socials-2">
     <ul className = "card">    
-      <li className = "item" >September 2019 - Present</li>
+      <li className = "item" >August 2020 - Present</li>
     </ul>
     </div>
   </div>
@@ -119,14 +106,15 @@ function Resume() {
     <li className = "item" >Walnut Creek, CA</li>
 
     <br></br>
-    <li className = "item">⚬ Worked with students to strengthen foundations of math and reading</li>
-    <li className = "item">⚬ Graded student classwork and homework</li>
-    <li className = "item">⚬ Administered progress tests</li>
+    <li className = "item">⚬ Researching early childhood development as part of ECHO UPSIDE project</li>
+    <li className = "item">⚬ Utilizing R packages to cleanse datasets for monthly uploads</li>
+    <li className = "item">⚬ Observational coding of sex-typical play and executive function tasks</li>
+    <li className = "item">⚬ Data entry and assisting project coordinators with project organization</li>
     </ul>
     </div>
     <div className = "socials-2">
     <ul className = "card">    
-      <li className = "item" >April 2018 - August 2020</li>
+      <li className = "item" >August 2020 - Present</li>
     </ul>
     </div>
   </div>
@@ -140,8 +128,8 @@ function Resume() {
     <li className = "item">Workshop Coordinator</li>
     <li className = "item" >Rochester, NY</li>
     <br></br>
-    <li className = "item">⚬ Helped plan Flutter development curriculum for weekly workshops</li>
-    <li className = "item">⚬ Wrote live-code examples in Dart to demonstrate ListView and Navigation concepts</li>
+    <li className = "item">⚬ Placed on business analytics team; will be working on trade and settlement flow</li>
+    <li className = "item">⚬ COBOL, JB2, Mainframe</li>
     </ul>
     </div>
     <div className = "socials-2">
@@ -159,15 +147,15 @@ function Resume() {
     <li className = "item" >Rochester, NY</li>
 
     <br></br>
-    <li className = "item">⚬ Implemented UI redesign using React, Bootstrap, HTML, CSS, jQuery</li>
-    <li className = "item">⚬ Improved speed and responsiveness through implementing React Router</li>
-    <li className = "item">⚬ Update site information and fix bugs</li>
-    <li className = "item">⚬ Manage server and hosting setup on Heroku</li>
+    <li className = "item">⚬ Researching early childhood development as part of ECHO UPSIDE project</li>
+    <li className = "item">⚬ Utilizing R packages to cleanse datasets for monthly uploads</li>
+    <li className = "item">⚬ Observational coding of sex-typical play and executive function tasks</li>
+    <li className = "item">⚬ Data entry and assisting project coordinators with project organization</li>
     </ul>
     </div>
     <div className = "socials-2">
     <ul className = "card">    
-      <li className = "item" >June 2020 - Present</li>
+      <li className = "item" >August 2020 - Present</li>
     </ul>
     </div>
   </div>

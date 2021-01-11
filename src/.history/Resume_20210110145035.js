@@ -3,22 +3,27 @@ import './App.css';
 function Resume() {
   return (
     <div>
-            <div className = "kobe">
+        <div className = "kobe">
     <div className = "info">
     <ul className = "card">
-<li className = "item" style = {{fontSize: 20 + 'px'}}><strong>EDUCATION</strong></li>
-    
+<li className = "item" style = {{fontSize: 17 + 'px'}}><strong>University of Rochester</strong></li>
+    <li className = "item">BS Computer Science</li>
+    <li className = "item">3.63/4.00 GPA</li>
+    <br></br>
+    <li className = "item"><strong>Awards: </strong>Dean's List, Dean's Scholarship for Academic Achievement</li>
+    <li className = "item"><strong>Coursework: </strong>Discrete Math, Data Structures and Algorithms, Data Mining, Formal Systems, Computational Statistics</li>
     </ul>
     </div>
     <div className = "socials-2">
       
     <ul className = "card">    
-      <li className = "item-1" >Download as PDF</li>
+      <li className = "item" >August 2019 - May 2023</li>
+      <li className = "item" >Rochester, NY</li>
     </ul>
     </div>
 
   </div>
-        <hr className = "social-line-1"></hr>
+        <hr className = "social-line"></hr>
 
     <div className = "kobe">
     <div className = "info">

@@ -61,7 +61,6 @@ div {
 }
 
 .header {
-  font-stretch: ultra-condensed;
   line-height: 0;
 }
 
@@ -70,7 +69,8 @@ div {
 }
 
 .item-1 {
-  line-height: 3;
+  line-height: -1.8;
+  bottom: -10px;
 }
 
 .item-bullet {
@@ -132,7 +132,6 @@ div {
 .about-me {
   line-height: 1.8;
   width: 70%;
-  color: #676767;
 }
 
 .foot {

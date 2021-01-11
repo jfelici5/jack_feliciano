@@ -13,7 +13,7 @@ function Resume() {
     <div className = "socials-2">
       
     <ul className = "card">    
-      <li className = "item-1" >Download as PDF</li>
+      <li className = "item" >August 2019 - May 2023</li>
     </ul>
     </div>
 

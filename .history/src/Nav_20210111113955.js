@@ -4,7 +4,7 @@ import {HashLink} from 'react-router-hash-link'
 
 function Nav() {
   return (
-    <div>
+    <div className = "navver">
         <div className = 'nav-links'>
             <h2 className = 'words'> 
             <Link to = "/" style = {{textDecoration: 'none', color: "black"}}><p className = "home">Home</p></Link>
@@ -26,10 +26,12 @@ function Nav() {
             </h2>
         
         </div>
-      
+        <div className = 'nav-links'><h2 className = 'words'> 
+            <Link to = "/" style = {{textDecoration: 'none', color: "black"}}><p className = "home">Dark Mode</p></Link>
+            </h2> </div>
         
-    <hr></hr>
     </div>
+    <hr></hr>
   );
 }
 

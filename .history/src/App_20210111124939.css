@@ -265,6 +265,6 @@ div {
 
 @media screen and (max-width: 600px) {
   .boody {
-    max-width: 95%;
+    max-width: 100%;
   }
 }

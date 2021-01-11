@@ -26,9 +26,10 @@ function Nav() {
             </h2>
         
         </div>
-      
-        
-    <hr></hr>
+        <div className = 'nav-links'><h2 className = 'words'> 
+            <Link to = "/" style = {{textDecoration: 'none', color: "black"}}><p className = "home">Dark Mode</p></Link>
+            </h2> </div>
+        <hr></hr>
     </div>
   );
 }

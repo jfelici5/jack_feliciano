@@ -250,21 +250,3 @@ div {
   align-items: left;
   list-style: none;
 }
-
-@media screen and (max-width: 1000px) {
-  .boody {
-    max-width: 90%;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .boody {
-    max-width: 90%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .boody {
-    max-width: 95%;
-  }
-}

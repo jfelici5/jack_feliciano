@@ -28,6 +28,7 @@ function Nav() {
         </div>
       
         
+    </div>
     <hr></hr>
     </div>
   );

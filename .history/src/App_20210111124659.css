@@ -251,20 +251,8 @@ div {
   list-style: none;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 750px) {
   .boody {
-    max-width: 90%;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .boody {
-    max-width: 90%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .boody {
-    max-width: 95%;
+    width: 100%;
   }
 }

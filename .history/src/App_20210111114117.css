@@ -15,9 +15,8 @@ div {
   font-family: "Andale Mono", "Andale Mono WT", Consolas, sans-serif;
 }
 .navver {
-  display: inline-flex;
+  display: flex;
   justify-content: space-around;
-  width: 100%;
 }
 .boody {
   max-width: 60%;
@@ -233,38 +232,15 @@ div {
 }
 
 .nav-links {
-  width: 100%;
+  padding-right: 20px;
+  width: 80%;
   align-items: left;
   display: flex;
   list-style: none;
 }
 
-.nav-links-2 {
-  width: 15%;
-  text-align: center;
-  display: flex;
-  list-style: none;
-}
 .logo {
   width: 50%;
   align-items: left;
   list-style: none;
-}
-
-@media screen and (max-width: 1000px) {
-  .boody {
-    max-width: 90%;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .boody {
-    max-width: 90%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .boody {
-    max-width: 95%;
-  }
 }

@@ -1,9 +1,10 @@
-@import url(//db.onlinewebfonts.com/c/1db29588408eadbd4406aae9238555eb?family=Consolas);
+@import url(//db.onlinewebfonts.com/c/3156116d1667eea051f96b697f069624?family=Andale+Mono);
+
 ul,
 li,
 h2,
 div {
-  font: 12px "Consolas";
+  font: 12px "Andale Mono";
   font-style: normal;
   font-variant-ligatures: normal;
   font-variant-caps: normal;
@@ -13,22 +14,21 @@ div {
   font-stretch: normal;
   font-size: 12px;
   line-height: normal;
-  font-family: "Consolas";
+  font-family: "Andale Mono";
 }
 
 @font-face {
-  font-family: "Consolas";
-  src: url("//db.onlinewebfonts.com/t/1db29588408eadbd4406aae9238555eb.eot");
-  src: url("//db.onlinewebfonts.com/t/1db29588408eadbd4406aae9238555eb.eot?#iefix")
-      format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/1db29588408eadbd4406aae9238555eb.woff2")
-      format("woff2"),
-    url("//db.onlinewebfonts.com/t/1db29588408eadbd4406aae9238555eb.woff")
-      format("woff"),
-    url("//db.onlinewebfonts.com/t/1db29588408eadbd4406aae9238555eb.ttf")
-      format("truetype"),
-    url("//db.onlinewebfonts.com/t/1db29588408eadbd4406aae9238555eb.svg#Consolas")
-      format("svg");
+  font-family: "Andale Mono";
+  src: url("//db.onlinewebfonts.com/t/3156116d1667eea051f96b697f069624.eot?#iefix")
+    format("embedded-opentype");
+  src: url("//db.onlinewebfonts.com/t/3156116d1667eea051f96b697f069624.woff2")
+    format("woff2");
+  src: url("//db.onlinewebfonts.com/t/3156116d1667eea051f96b697f069624.woff")
+    format("woff");
+  src: url("//db.onlinewebfonts.com/t/3156116d1667eea051f96b697f069624.ttf")
+    format("truetype");
+  src: url("//db.onlinewebfonts.com/t/3156116d1667eea051f96b697f069624.svg#Andale Mono")
+    format("svg");
 }
 .navver {
   display: inline-flex;

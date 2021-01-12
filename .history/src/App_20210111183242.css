@@ -3,7 +3,7 @@ ul,
 li,
 h2,
 div {
-  font: 12px "Consolas";
+  font: 12px "Andale Mono";
   font-style: normal;
   font-variant-ligatures: normal;
   font-variant-caps: normal;
@@ -13,7 +13,7 @@ div {
   font-stretch: normal;
   font-size: 12px;
   line-height: normal;
-  font-family: "Consolas";
+  font-family: "Andale Mono";
 }
 
 @font-face {

@@ -1,10 +1,8 @@
-@import url(//db.onlinewebfonts.com/c/3156116d1667eea051f96b697f069624?family=Andale+Mono);
-
 ul,
 li,
 h2,
 div {
-  font: 12px "Andale Mono";
+  font: 12px "Andale Mono", "Andale Mono WT", Consolas, sans-serif;
   font-style: normal;
   font-variant-ligatures: normal;
   font-variant-caps: normal;
@@ -14,22 +12,11 @@ div {
   font-stretch: normal;
   font-size: 12px;
   line-height: normal;
-  font-family: "Andale Mono";
+  font-family: "Andale Mono", "Andale Mono WT", Consolas, sans-serif;
 }
 
 @font-face {
-  font-family: "Andale Mono";
-  src: url("//db.onlinewebfonts.com/t/3156116d1667eea051f96b697f069624.eot");
-  src: url("//db.onlinewebfonts.com/t/3156116d1667eea051f96b697f069624.eot?#iefix")
-    format("embedded-opentype");
-  src: url("//db.onlinewebfonts.com/t/3156116d1667eea051f96b697f069624.woff2")
-    format("woff2");
-  src: url("//db.onlinewebfonts.com/t/3156116d1667eea051f96b697f069624.woff")
-    format("woff");
-  src: url("//db.onlinewebfonts.com/t/3156116d1667eea051f96b697f069624.ttf")
-    format("truetype");
-  src: url("//db.onlinewebfonts.com/t/3156116d1667eea051f96b697f069624.svg#Andale Mono")
-    format("svg");
+  font-family: "Andale Mono", "Andale Mono WT", Consolas, sans-serif;
 }
 .navver {
   display: inline-flex;

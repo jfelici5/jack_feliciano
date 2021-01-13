@@ -11,14 +11,14 @@ function Home() {
     <div className = "kobe">
       <div className = "socials">
       <ul className = "card">
-        <li className = "item" style = {{fontSize: 17 + 'px', fontFamily: "Andale Mono"}}><strong>JACK FELICIANO</strong></li>
+        <li className = "item" style = {{fontSize: 17 + 'px'}}><strong>JACK FELICIANO</strong></li>
         <li className = "item" >Credit Suisse Securities</li>
         <li className = "item" >Incoming Summer Technology Analyst</li>
         <li className = "item" >New York City, NY</li>
       </ul>
       <hr className = "social-line"></hr>
       <ul className = "card">
-        <li className = "item" style = {{fontSize: 17 + 'px', fontFamily: "Andale Mono"}}><strong>CONNECT WITH ME</strong></li>
+        <li className = "item" style = {{fontSize: 17 + 'px'}}><strong>CONNECT WITH ME</strong></li>
         <li className = "item"><a className = "item"href="mailto:jfelici5@u.rochester.edu" target="_blank">email</a></li>
         <li className = "item"><a className = "item"href="https://github.com/jfelici5" target="_blank">github</a></li>
         <li className = "item"><a className = "item"href="https://www.linkedin.com/in/jack-feliciano/" target="_blank">linkedin</a></li>

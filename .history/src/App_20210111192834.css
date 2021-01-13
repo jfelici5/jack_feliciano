@@ -1,5 +1,4 @@
 @import url(//db.onlinewebfonts.com/c/1db29588408eadbd4406aae9238555eb?family=Consolas);
-@import url(//db.onlinewebfonts.com/c/663974c9fe3ba55b228724fd4d4e445f?family=Andale+Mono);
 ul,
 li,
 h2,
@@ -18,21 +17,6 @@ div {
 }
 
 @font-face {
-  font-family: "Andale Mono";
-  src: url("//db.onlinewebfonts.com/t/663974c9fe3ba55b228724fd4d4e445f.eot");
-  src: url("//db.onlinewebfonts.com/t/663974c9fe3ba55b228724fd4d4e445f.eot?#iefix")
-      format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/663974c9fe3ba55b228724fd4d4e445f.woff2")
-      format("woff2"),
-    url("//db.onlinewebfonts.com/t/663974c9fe3ba55b228724fd4d4e445f.woff")
-      format("woff"),
-    url("//db.onlinewebfonts.com/t/663974c9fe3ba55b228724fd4d4e445f.ttf")
-      format("truetype"),
-    url("//db.onlinewebfonts.com/t/663974c9fe3ba55b228724fd4d4e445f.svg#Andale Mono")
-      format("svg");
-}
-
-@font-face {
   font-family: "Consolas";
   src: url("//db.onlinewebfonts.com/t/1db29588408eadbd4406aae9238555eb.eot");
   src: url("//db.onlinewebfonts.com/t/1db29588408eadbd4406aae9238555eb.eot?#iefix")
@@ -47,10 +31,6 @@ div {
       format("svg");
 }
 
-.andale {
-  font-family: "Andale Mono";
-}
-
 .realb {
   width: 100%;
   background-color: white;
@@ -58,7 +38,7 @@ div {
 
 .realb.dark-mode {
   width: 100%;
-  background-color: #121212;
+  background-color: black;
 }
 
 .navver {
@@ -74,15 +54,7 @@ div {
 }
 
 .boody.dark-mode {
-  background-color: #121212;
-}
-
-button {
-  background: none !important;
-  border: none;
-  padding: 0 !important;
-  font-family: "Consolas";
-  font-size: 12px;
+  background-color: black;
 }
 
 .resume {
@@ -94,20 +66,12 @@ button {
   margin-bottom: 1.5em;
 }
 
-.resume.dark-mode {
-  color: white;
-}
-
 .resume:hover {
   font-weight: bold;
   background-color: blue;
   text-decoration-color: white;
   text-decoration-thickness: 6px;
   color: white;
-}
-
-.resume.dark-mode:hover {
-  text-decoration-color: black;
 }
 
 .pdf {
@@ -132,10 +96,6 @@ button {
   margin-bottom: 1.5em;
 }
 
-.home.dark-mode {
-  color: white;
-}
-
 .home:hover {
   background-color: #ff5349;
   text-decoration-color: white;
@@ -146,8 +106,8 @@ button {
   font-weight: bold;
 }
 
-.home.dark-mode:hover {
-  text-decoration-color: black;
+.home.dark-mode {
+  color: "white";
 }
 
 .gallery {
@@ -159,10 +119,6 @@ button {
   margin-bottom: 1.5em;
 }
 
-.gallery.dark-mode {
-  color: white;
-}
-
 .dark {
   color: "black";
   line-height: 0.7;
@@ -172,28 +128,16 @@ button {
   margin-bottom: 1.5em;
 }
 
-.dark.dark-mode {
-  color: white;
-}
-
 .dark:hover {
   background-color: #ff69b4;
   text-decoration-color: white;
   font-weight: bold;
 }
 
-.dark.dark-mode:hover {
-  text-decoration-color: black;
-}
-
 .gallery:hover {
   background-color: gold;
   text-decoration-color: white;
   font-weight: bold;
-}
-
-.gallery.dark-mode:hover {
-  text-decoration-color: black;
 }
 
 .header {
@@ -223,19 +167,11 @@ button {
   margin-bottom: 1.5em;
 }
 
-.projects.dark-mode {
-  color: white;
-}
-
 .projects:hover {
   font-weight: bold;
   background-color: #62c6f2;
   text-decoration-color: white;
   text-decoration-thickness: 6px;
-}
-
-.projects.dark-mode:hover {
-  text-decoration-color: black;
 }
 
 .download {
@@ -334,7 +270,6 @@ button {
   color: black;
 }
 .kobe {
-  color: black;
   display: flex;
 }
 

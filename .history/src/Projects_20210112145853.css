@@ -1,0 +1,12 @@
+.project-tile {
+  display: flex;
+  width: 100%;
+}
+
+.image-tile {
+  width: 35%;
+}
+
+.info-tile {
+  width: 65%;
+}

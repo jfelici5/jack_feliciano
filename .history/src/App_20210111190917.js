@@ -5,19 +5,17 @@ import Photos from './Photos'
 import Home from './Home'
 import Resume from './Resume'
 import Foot from './Foot'
-import Projects from './Projects'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
 function App() {
   return (
     <Router>
-    <div className = "realb">
+    <div className = "real">
     <div className = "boody">
       <Nav/>
       <Switch>
       <Route path = "/" exact component = {Home}/>
       <Route path = "/resume" exact component = {Resume}/>
-      <Route path = "/projects" exact component = {Projects}/>
       <Route path = "/photos" exact component = {Photos}/>
       </Switch>
       <Foot/>

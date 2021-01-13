@@ -1,0 +1,29 @@
+.project-tile {
+  display: flex;
+  width: 100%;
+}
+
+.image-tile {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: 1fr;
+  grid-gap: 20px;
+  width: 35%;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  background-image: url(./DSC_0359.JPG);
+  background-position: center;
+  background-size: cover;
+}
+
+.info-tile {
+  width: 65%;
+}
+
+.japan-video {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: calc(9 / 16 * 100%);
+}

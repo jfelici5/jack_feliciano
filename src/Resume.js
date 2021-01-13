@@ -6,7 +6,7 @@ function Resume() {
             <div className = "kobe">
     <div className = "info">
     <ul className = "card">
-<li className = "item" id = "education" style = {{fontSize: 20 + 'px'}}><strong>EDUCATION</strong></li>
+<li className = "item" id = "education" style = {{fontSize: 20 + 'px', fontFamily: "Andale Mono"}}><strong>EDUCATION</strong></li>
     
     </ul>
     </div>
@@ -41,7 +41,7 @@ function Resume() {
 
   </div>
   <br  id = "skills" ></br>
-  <h2 className = "header"style = {{fontSize: 20 + 'px'}}><strong>SKILLS</strong></h2>
+  <h2 className = "header"style = {{fontSize: 20 + 'px', fontFamily: "Andale Mono"}}><strong>SKILLS</strong></h2>
   <hr className = "social-line"></hr>
 
   <div className = "kobe">
@@ -53,7 +53,7 @@ function Resume() {
     </div>
   </div>
   <br  id = "experience" ></br>
-  <h2 className = "header" style = {{fontSize: 20 + 'px'}}><strong>EXPERIENCE</strong></h2>
+  <h2 className = "header" style = {{fontSize: 20 + 'px', fontFamily: "Andale Mono"}}><strong>EXPERIENCE</strong></h2>
   <hr className = "social-line"></hr>
 
   <div className = "kobe">
@@ -133,7 +133,7 @@ function Resume() {
     </div>
   </div>
   <br id = "leadership"></br>
-  <h2 className = "header"style = {{fontSize: 20 + 'px'}}><strong>LEADERSHIP</strong></h2>
+  <h2 className = "header"style = {{fontSize: 20 + 'px', fontFamily: "Andale Mono"}}><strong>LEADERSHIP</strong></h2>
   <hr className = "social-line"></hr>
 
   <div className = "kobe">

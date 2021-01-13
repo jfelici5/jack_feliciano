@@ -1,6 +1,28 @@
 import {Link} from 'react-router-dom';
 import './App.css';
 import {HashLink} from 'react-router-hash-link'
+import $ from 'jquery'
+
+function myFunction() {
+  const theme = '.dark-mode';
+  const darkMode = localStorage.getItem(theme);
+  var $nav = $(".boody");
+  var $nav2 = $(".realb");
+  var $nav3 = $(".home");
+  var $nav4 = $(".gallery");
+  var $nav5 = $(".projects");
+  var $nav6 = $(".resume");
+  var $nav7 = $(".dark");
+  
+  $nav.toggleClass(theme, darkMode === 'true');
+  $nav2.toggleClass(theme, darkMode === 'true');
+  $nav3.toggleClass(theme, darkMode === 'true');
+  $nav4.toggleClass(theme, darkMode === 'true');
+  $nav5.toggleClass(theme, darkMode === 'true');
+  $nav6.toggleClass(theme, darkMode === 'true');
+  $nav7.toggleClass(theme, darkMode === 'true');
+  
+}
 
 function Nav() {
   return (
@@ -23,6 +45,9 @@ function Nav() {
             </h2>
             <h2 className = 'words'> 
             <Link to = "/photos" style = {{textDecoration: 'none', color: "black"}}><p className = "gallery">Gallery</p></Link>            <p  className = "city"style = {{color: "blue"}}>San Francisco</p>
+            </h2>
+            <h2 className = 'words'> 
+            <button onClick = {myFunction} style = {{textDecoration: 'none', color: "black"}}><p className = "dark">Dark Mode</p></button>     
             </h2>
         
         </div>

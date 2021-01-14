@@ -36,7 +36,7 @@ function Projects() {
         </div>
         
     </div>
-    </DocumentTitle>
+    <DocumentTitle
   );
 }
 

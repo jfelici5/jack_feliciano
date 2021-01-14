@@ -3,7 +3,7 @@ import DocumentTitle from 'react-document-title'
 
 function Home() {
   return (
-    <DocumentTitle title = "Jack Feliciano | home">
+    <DocumentTitle title = "home:: jack">
       <div>
     <div className = "videogrid-2">
         <div className = "japan-video">

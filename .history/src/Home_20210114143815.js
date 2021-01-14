@@ -3,8 +3,7 @@ import DocumentTitle from 'react-document-title'
 
 function Home() {
   return (
-    <DocumentTitle title = "Jack Feliciano | home">
-      <div>
+    <DocumentTitle title = "Home">
     <div className = "videogrid-2">
         <div className = "japan-video">
           
@@ -34,7 +33,6 @@ function Home() {
 
 Outside of school and work, I spend most of my time outdoors, either working on my golf game, hiking, or practicing photography. I also enjoy playing guitar and am a diehard Golden State Warriors fan
       </p>
-    </div>
     </div>
     </DocumentTitle>
   );

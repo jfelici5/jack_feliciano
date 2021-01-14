@@ -7,6 +7,7 @@ function Resume() {
     <DocumentTitle title = "Jack Feliciano | resume">
       
     <div>
+    <Nav/>
             <div className = "kobe">
     <div className = "info">
     <ul className = "card">

@@ -1,11 +1,9 @@
 import './App.css';
 import DocumentTitle from 'react-document-title'
-import Nav from './Nav'
 
 function Resume() {
   return (
     <DocumentTitle title = "Jack Feliciano | resume">
-      
     <div>
             <div className = "kobe">
     <div className = "info">

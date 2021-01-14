@@ -5,7 +5,7 @@ import Nav from './Nav'
 function Resume() {
   return (
     <DocumentTitle title = "Jack Feliciano | resume">
-      
+      <Nav/>
     <div>
             <div className = "kobe">
     <div className = "info">

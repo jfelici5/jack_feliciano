@@ -137,7 +137,7 @@ button {
   background-color: blue;
   text-decoration-color: transparent;
   text-decoration-thickness: 6px;
-  color: white;
+  color: transparent;
 }
 
 .resume.dark-mode:hover {
@@ -336,8 +336,8 @@ button {
   padding-right: 40px;
   background-image: url(./blob_2.svg);
   background-repeat: no-repeat;
-  background-position-y: 25px;
-  background-position-x: 180%;
+  background-position-y: -100%;
+  background-position-x: 250%;
   background-size: 120% 120%;
 }
 

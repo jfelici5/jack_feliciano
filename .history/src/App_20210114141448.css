@@ -137,7 +137,7 @@ button {
   background-color: blue;
   text-decoration-color: transparent;
   text-decoration-thickness: 6px;
-  color: white;
+  color: transparent;
 }
 
 .resume.dark-mode:hover {
@@ -374,7 +374,7 @@ button {
 }
 .kobe {
   color: black;
-  display: flex;
+  display: flexbox;
 }
 
 .kobe-2 {

@@ -137,7 +137,7 @@ button {
   background-color: blue;
   text-decoration-color: transparent;
   text-decoration-thickness: 6px;
-  color: white;
+  color: transparent;
 }
 
 .resume.dark-mode:hover {
@@ -313,8 +313,8 @@ button {
   justify-items: center;
   align-items: center;
   align-content: center;
-  background-image: url(./DSC_0332.JPG);
-  background-position: 15%;
+  background-image: url(./headshot.JPG);
+  background-position: center;
   background-size: cover;
 }
 
@@ -322,7 +322,7 @@ button {
   position: relative;
   width: 100%;
   overflow: hidden;
-  padding-top: calc(9 / 21 * 100%);
+  padding-top: calc(3 / 4 * 100%);
 }
 
 .card {
@@ -334,11 +334,6 @@ button {
   display: block;
   width: 20%;
   padding-right: 40px;
-  background-image: url(./blob_2.svg);
-  background-repeat: no-repeat;
-  background-position-y: 25px;
-  background-position-x: 180%;
-  background-size: 120% 120%;
 }
 
 .socials-2 {

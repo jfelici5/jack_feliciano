@@ -79,6 +79,7 @@ div {
 }
 
 .nav-left {
+  width: 100%;
   background-image: url(./blob.svg);
   background-repeat: no-repeat;
   background-position-y: -40px;
@@ -100,6 +101,11 @@ div {
   background-color: #121212;
 }
 
+.navver {
+  display: inline-flex;
+  justify-content: space-around;
+  width: 100%;
+}
 .boody {
   max-width: 60%;
   align-items: center;
@@ -135,7 +141,7 @@ button {
 .resume:hover {
   font-weight: bold;
   background-color: blue;
-  text-decoration-color: transparent;
+  text-decoration-color: white;
   text-decoration-thickness: 6px;
   color: white;
 }
@@ -172,7 +178,7 @@ button {
 
 .home:hover {
   background-color: #ff5349;
-  text-decoration-color: transparent;
+  text-decoration-color: white;
   font-weight: bold;
 }
 
@@ -181,7 +187,7 @@ button {
 }
 
 .home.dark-mode:hover {
-  text-decoration-color: transparent;
+  text-decoration-color: black;
 }
 
 .gallery {
@@ -212,7 +218,7 @@ button {
 
 .dark:hover {
   background-color: #ff69b4;
-  text-decoration-color: transparent;
+  text-decoration-color: white;
   font-weight: bold;
 }
 
@@ -222,7 +228,7 @@ button {
 
 .gallery:hover {
   background-color: gold;
-  text-decoration-color: transparent;
+  text-decoration-color: white;
   font-weight: bold;
 }
 
@@ -264,12 +270,12 @@ button {
 .projects:hover {
   font-weight: bold;
   background-color: #62c6f2;
-  text-decoration-color: transparent;
+  text-decoration-color: white;
   text-decoration-thickness: 6px;
 }
 
 .projects.dark-mode:hover {
-  text-decoration-color: transparent;
+  text-decoration-color: black;
 }
 
 .download {
@@ -313,8 +319,8 @@ button {
   justify-items: center;
   align-items: center;
   align-content: center;
-  background-image: url(./DSC_0332.JPG);
-  background-position: 15%;
+  background-image: url(./DSC_0359.JPG);
+  background-position: center;
   background-size: cover;
 }
 
@@ -334,11 +340,6 @@ button {
   display: block;
   width: 20%;
   padding-right: 40px;
-  background-image: url(./blob_2.svg);
-  background-repeat: no-repeat;
-  background-position-y: 25px;
-  background-position-x: 180%;
-  background-size: 120% 120%;
 }
 
 .socials-2 {
@@ -383,7 +384,7 @@ button {
 }
 
 .words {
-  padding-right: 20px;
+  padding-right: 40px;
   line-height: 0.4;
 }
 
@@ -420,6 +421,6 @@ button {
 
 @media screen and (max-width: 600px) {
   .boody {
-    max-width: 98%;
+    max-width: 100%;
   }
 }

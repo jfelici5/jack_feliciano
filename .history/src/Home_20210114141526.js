@@ -29,7 +29,8 @@ function Home() {
       <p className = "about-me">
       Hi there! My name is Jack and I am an aspiring software engineer. I am currently studying early childhood development as a research assistant at UR Medical Center, and will be working on trade and settlement flow at Credit Suisse as a Summer Technology Analyst this upcoming summer in New York City. Within tech, I am most interested in web development and data analysis. I previously redesigned the website for After Hours, an on campus student organization, using React and have helped write Flutter tutorials for uRochester’s Google Developer Students Club.
 <br></br><br></br>
-
+When I'm not studying, you can find me on campus either golfing or singing. I am on the Men's Varsity Golf team and have competed with the team in Florida, Georgia, and New York, as well as individually all over the west coast. I am also a member of After Hours A Cappella, a co-ed performance group on campus.
+<br></br><br></br>
 Outside of school and work, I spend most of my time outdoors, either working on my golf game, hiking, or practicing photography. I also enjoy playing guitar and am a diehard Golden State Warriors fan
       </p>
     </div>

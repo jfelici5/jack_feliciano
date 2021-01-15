@@ -1,0 +1,40 @@
+@import url(//db.onlinewebfonts.com/c/ab015843d965a66f45403f7a2fa7fc36?family=HelveticaNeueLTPro-Bd);
+@font-face {
+  font-family: "HelveticaNeueLTPro-Bd";
+  src: url("//db.onlinewebfonts.com/t/ab015843d965a66f45403f7a2fa7fc36.eot");
+  src: url("//db.onlinewebfonts.com/t/ab015843d965a66f45403f7a2fa7fc36.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/ab015843d965a66f45403f7a2fa7fc36.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/ab015843d965a66f45403f7a2fa7fc36.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/ab015843d965a66f45403f7a2fa7fc36.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/ab015843d965a66f45403f7a2fa7fc36.svg#HelveticaNeueLTPro-Bd")
+      format("svg");
+}
+
+.videogrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: 1fr;
+  grid-gap: 20px;
+  min-height: 20vh;
+  width: 85%;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+}
+
+.japan-video {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: calc(2 / 3 * 100%);
+}
+
+.write-up {
+  margin: 0 auto;
+  width: 85%;
+}

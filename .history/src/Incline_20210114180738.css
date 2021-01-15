@@ -1,0 +1,21 @@
+.videogrid-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: 1fr;
+  grid-gap: 20px;
+  min-height: 20vh;
+  width: 85%;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  background-image: url(./DSC_0332.JPG);
+  background-position: 15%;
+  background-size: cover;
+}
+
+.japan-video {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: calc(3 / 4 * 100%);
+}

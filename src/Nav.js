@@ -29,7 +29,8 @@ function Nav() {
     <>
         <div className = "nav-left">
         <hr></hr>
-        <div style = {{fontFamily: "Helvetica Neue", fontSize: 45 + 'px', fontStyle: "bold"}}>JACK <span style = {{fontFamily: "skinny"}}>feliciano</span></div>
+        <Link to = "/" style = {{textDecoration: 'none', color: "black"}}><div style = {{fontFamily: "Helvetica Neue", fontSize: 45 + 'px', fontStyle: "bold"}}>JACK <span style = {{fontFamily: "skinny"}}>feliciano</span></div>
+        </Link>
         <div className = 'nav-links'>
             <h2 className = 'words'> 
             <Link to = "/" style = {{textDecoration: 'none', color: "black"}}><p className = "home">Home</p></Link>
@@ -47,7 +48,8 @@ function Nav() {
             <p style = {{color: "blue"}}>urafterhours</p>
             </h2>
             <h2 className = 'words'> 
-            <Link to = "/photos" style = {{textDecoration: 'none', color: "black"}}><p className = "gallery">Gallery</p></Link>            <p  className = "city"style = {{color: "blue"}}>San Francisco</p>
+            <Link to = "/photos" style = {{textDecoration: 'none', color: "black"}}><p className = "gallery">Gallery</p></Link>            
+            <Link to = "/photos/incline" style = {{textDecoration: 'none'}}><p  className = "city"style = {{color: "blue"}}>Incline Village</p></Link>
             </h2>
             <h2 className = 'words'> 
             <button onClick = {myFunction} style = {{textDecoration: 'none', color: "black"}}><p className = "dark">Dark Mode</p></button>     

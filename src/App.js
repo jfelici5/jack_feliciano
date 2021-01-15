@@ -6,6 +6,7 @@ import Home from './Home'
 import Resume from './Resume'
 import Foot from './Foot'
 import Projects from './Projects'
+import Incline from './Incline'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Route path = "/resume" exact component = {Resume}/>
       <Route path = "/projects" exact component = {Projects}/>
       <Route path = "/photos" exact component = {Photos}/>
+      <Route path = "/photos/incline" exact component = {Incline}/>
       </Switch>
       <Foot/>
     </div>

@@ -10,10 +10,11 @@ import Incline from './Incline'
 import USOpen from './USOpen'
 
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import { HashRouter } from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
     <div className = "realb">
     <div className = "boody">
       <Nav/>
@@ -29,7 +30,7 @@ function App() {
       <Foot/>
     </div>
     </div>
-    </Router>
+    // </HashRouter>
   );
 }
 

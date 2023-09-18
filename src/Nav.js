@@ -29,44 +29,44 @@ function Nav() {
     <>
         <div className = "nav-left">
         <hr></hr>
-        <HashRouter basename={process.env.PUBLIC_URL}>
+        {/* <HashRouter basename={process.env.PUBLIC_URL}> */}
           <Link to = "/" style = {{textDecoration: 'none', color: "black"}}><div style = {{fontFamily: "Helvetica Neue", fontSize: 45 + 'px', fontStyle: "bold"}}>JACK <span style = {{fontFamily: "skinny"}}>feliciano</span></div></Link>
-        </HashRouter>
+        {/* </HashRouter> */}
         
         <div className = 'nav-links'>
             <h2 className = 'words'> 
-            <HashRouter basename={process.env.PUBLIC_URL}>
+            {/* <HashRouter basename={process.env.PUBLIC_URL}> */}
               <Link to = "/" style = {{textDecoration: 'none', color: "black"}}><p className = "home">Home</p></Link>
-            </HashRouter>
+            {/* </HashRouter> */}
             </h2> 
             <h2 className = 'words'> 
-            <HashRouter basename={process.env.PUBLIC_URL}>
+            {/* <HashRouter basename={process.env.PUBLIC_URL}> */}
             <Link to = "/resume" style = {{textDecoration: 'none', color: "black"}}><p className = "resume">Resume</p></Link>
-            </HashRouter>
+            {/* </HashRouter> */}
 
               <HashLink to = "/jack_feliciano/resume#education" style = {{textDecoration: 'none'}}><p style = {{color: "blue"}}>Education</p></HashLink>
 
-            <HashRouter basename={process.env.PUBLIC_URL}>
+            {/* <HashRouter basename={process.env.PUBLIC_URL}> */}
               <HashLink to = "/jack_feliciano/resume#skills" style = {{textDecoration: 'none'}}><p style = {{color: "blue"}}>Skills</p></HashLink>
-            </HashRouter>
-            <HashRouter basename={process.env.PUBLIC_URL}>
+            {/* </HashRouter> */}
+            {/* <HashRouter basename={process.env.PUBLIC_URL}> */}
               <HashLink to = "/jack_feliciano/resume#experience" style = {{textDecoration: 'none'}}><p style = {{color: "blue"}}>Experience</p></HashLink>                
-            </HashRouter>
+            {/* </HashRouter> */}
             </h2>
             {/* <h2 className = 'words'>  */}
             {/* <Link to = "/projects" style = {{textDecoration: 'none', color: "black"}}><p className = "projects">Projects</p></Link>            <p style = {{color: "blue"}}>2048</p>
             <p style = {{color: "blue"}}>urafterhours</p>
             </h2> */}
             <h2 className = 'words'> 
-            <HashRouter basename={process.env.PUBLIC_URL}>
+            {/* <HashRouter basename={process.env.PUBLIC_URL}> */}
               <Link to = "/photos" style = {{textDecoration: 'none', color: "black"}}><p className = "gallery">Blogs</p></Link>            
-            </HashRouter>
-            <HashRouter basename={process.env.PUBLIC_URL}> 
+            {/* </HashRouter> */}
+            {/* <HashRouter basename={process.env.PUBLIC_URL}>  */}
               <Link to = "/photos/incline" style = {{textDecoration: 'none'}}><p  className = "city"style = {{color: "blue"}}>Incline Village</p></Link>
-            </HashRouter>
-            <HashRouter basename={process.env.PUBLIC_URL}>
+            {/* </HashRouter> */}
+            {/* <HashRouter basename={process.env.PUBLIC_URL}> */}
               <Link to = "/photos/usopen" style = {{textDecoration: 'none'}}><p  className = "city"style = {{color: "blue"}}>US Open</p></Link>
-            </HashRouter>
+            {/* </HashRouter> */}
 
             </h2>
             {/* <h2 className = 'words'> 

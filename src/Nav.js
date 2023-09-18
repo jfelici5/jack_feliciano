@@ -30,26 +30,26 @@ function Nav() {
         <div className = "nav-left">
         <hr></hr>
         <BrowserRouter basename={process.env.PUBLIC_URL}>
-          <Link to = "/" style = {{textDecoration: 'none', color: "black"}}><div style = {{fontFamily: "Helvetica Neue", fontSize: 45 + 'px', fontStyle: "bold"}}>JACK <span style = {{fontFamily: "skinny"}}>feliciano</span></div></Link>
+          <Link to = "/jack_feliciano/" style = {{textDecoration: 'none', color: "black"}}><div style = {{fontFamily: "Helvetica Neue", fontSize: 45 + 'px', fontStyle: "bold"}}>JACK <span style = {{fontFamily: "skinny"}}>feliciano</span></div></Link>
         </BrowserRouter>
         
         <div className = 'nav-links'>
             <h2 className = 'words'> 
             <BrowserRouter basename={process.env.PUBLIC_URL}>
-              <Link to = "/" style = {{textDecoration: 'none', color: "black"}}><p className = "home">Home</p></Link>
+              <Link to = "/jack_feliciano/" style = {{textDecoration: 'none', color: "black"}}><p className = "home">Home</p></Link>
             </BrowserRouter>
             </h2> 
             <h2 className = 'words'> 
             <BrowserRouter basename={process.env.PUBLIC_URL}>
-            <Link to = "/resume" style = {{textDecoration: 'none', color: "black"}}><p className = "resume">Resume</p></Link>
+            <Link to = "/jack_feliciano/resume" style = {{textDecoration: 'none', color: "black"}}><p className = "resume">Resume</p></Link>
             </BrowserRouter>
-              <HashLink to = "/resume#education" style = {{textDecoration: 'none'}}><p style = {{color: "blue"}}>Education</p></HashLink>
+              <HashLink to = "/jack_feliciano/resume#education" style = {{textDecoration: 'none'}}><p style = {{color: "blue"}}>Education</p></HashLink>
 
             <BrowserRouter basename={process.env.PUBLIC_URL}>
-              <HashLink to = "/resume#skills" style = {{textDecoration: 'none'}}><p style = {{color: "blue"}}>Skills</p></HashLink>
+              <HashLink to = "/jack_feliciano/resume#skills" style = {{textDecoration: 'none'}}><p style = {{color: "blue"}}>Skills</p></HashLink>
             </BrowserRouter>
             <BrowserRouter basename={process.env.PUBLIC_URL}>
-              <HashLink to = "/resume#experience" style = {{textDecoration: 'none'}}><p style = {{color: "blue"}}>Experience</p></HashLink>                
+              <HashLink to = "/jack_feliciano/resume#experience" style = {{textDecoration: 'none'}}><p style = {{color: "blue"}}>Experience</p></HashLink>                
             </BrowserRouter>
             </h2>
             {/* <h2 className = 'words'>  */}
@@ -58,13 +58,13 @@ function Nav() {
             </h2> */}
             <h2 className = 'words'> 
             <BrowserRouter basename={process.env.PUBLIC_URL}>
-              <Link to = "/photos" style = {{textDecoration: 'none', color: "black"}}><p className = "gallery">Blogs</p></Link>            
+              <Link to = "/jack_feliciano/photos" style = {{textDecoration: 'none', color: "black"}}><p className = "gallery">Blogs</p></Link>            
             </BrowserRouter>
             <BrowserRouter basename={process.env.PUBLIC_URL}> 
-              <Link to = "/photos/incline" style = {{textDecoration: 'none'}}><p  className = "city"style = {{color: "blue"}}>Incline Village</p></Link>
+              <Link to = "/jack_feliciano/photos/incline" style = {{textDecoration: 'none'}}><p  className = "city"style = {{color: "blue"}}>Incline Village</p></Link>
             </BrowserRouter>
             <BrowserRouter basename={process.env.PUBLIC_URL}>
-              <Link to = "/photos/usopen" style = {{textDecoration: 'none'}}><p  className = "city"style = {{color: "blue"}}>US Open</p></Link>
+              <Link to = "/jack_feliciano/photos/usopen" style = {{textDecoration: 'none'}}><p  className = "city"style = {{color: "blue"}}>US Open</p></Link>
             </BrowserRouter>
 
             </h2>

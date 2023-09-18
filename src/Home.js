@@ -43,7 +43,7 @@ function Home() {
 
       <li className = "item" style = {{fontSize: 17 + 'px', fontFamily: "Andale Mono", listStyle: "none"}}><strong>RECENT POSTS</strong></li>
       <BrowserRouter basename={process.env.PUBLIC_URL}>
-        <Link to = "/photos/usopen" style = {{textDecoration: 'none'}}><p  className = "city"style = {{color: "blue"}}>Watching Sascha Zverev at the US Open - August 31, 2023</p></Link>
+        <Link to = "/jack_feliciano/photos/usopen" style = {{textDecoration: 'none'}}><p  className = "city"style = {{color: "blue"}}>Watching Sascha Zverev at the US Open - August 31, 2023</p></Link>
 
       </BrowserRouter>
 

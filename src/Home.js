@@ -1,5 +1,6 @@
 import './App.css';
 import DocumentTitle from 'react-document-title'
+import {Link} from 'react-router-dom';
 
 function Home() {
   return (
@@ -15,8 +16,8 @@ function Home() {
      
       <ul className = "card">
         <li className = "item" style = {{fontSize: 17 + 'px', fontFamily: "Andale Mono"}}><strong>JACK FELICIANO</strong></li>
-        <li className = "item" >Credit Suisse Securities</li>
-        <li className = "item" >Incoming Summer Technology Analyst</li>
+        <li className = "item" >Credit Suisse</li>
+        <li className = "item" >Software Engineer, AI/ML Team</li>
         <li className = "item" >New York City, NY</li>
       </ul>
       <hr className = "social-line"></hr>
@@ -29,10 +30,21 @@ function Home() {
       </ul>
       </div>
       <p className = "about-me">
-      Hi there! My name is Jack and I am an aspiring software engineer. I am currently studying early childhood development as a research assistant at UR Medical Center, and will be working on trade and settlement flow at Credit Suisse as a Summer Technology Analyst this upcoming summer in New York City. Within tech, I am most interested in web development and data analysis. I previously redesigned the website for After Hours, an on campus student organization, using React and have helped write Flutter tutorials for uRochester’s Google Developer Students Club.
+      Hi! My name is Jack and I am a recent grad of the University of Rochester. I am currently living in New York City and working as a software engineer for Credit Suisse on internal ML tools.
 <br></br><br></br>
 
-Outside of school and work, I spend most of my time outdoors, either working on my golf game, hiking, or practicing photography. I also enjoy playing guitar and am a diehard Golden State Warriors fan
+      I am a super curious person and have a passion for learning. I also enjoy being active. And playing music.
+
+      Honestly this blog will be a mix of all my random interests, so I look forward to sharing some stories and cool
+      pictures here. Go Warriors.
+
+      <hr className = "social-line"></hr>
+
+
+      <li className = "item" style = {{fontSize: 17 + 'px', fontFamily: "Andale Mono", listStyle: "none"}}><strong>RECENT POSTS</strong></li>
+      <Link to = "/photos/usopen" style = {{textDecoration: 'none'}}><p  className = "city"style = {{color: "blue"}}>Watching Sascha Zverev at the US Open - August 31, 2023</p></Link>
+
+      
       </p>
     </div>
     </div>

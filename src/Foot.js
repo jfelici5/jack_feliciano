@@ -5,7 +5,7 @@ function Foot() {
     <div>
     <hr></hr>
     <div className = "foot">
-        © 2021 Juan Ramon Feliciano
+        © 2023 Jack Feliciano
     </div>
     </div>
   );

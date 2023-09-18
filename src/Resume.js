@@ -17,7 +17,7 @@ function Resume() {
     <div className = "socials-2">
       
     <ul className = "card">    
-      <li className = "item-1" >Download as PDF</li>
+      {/* <li className = "item-1" >Download as PDF</li> */}
     </ul>
     </div>
 
@@ -28,11 +28,11 @@ function Resume() {
     <div className = "info">
     <ul className = "card">
 <li className = "item" style = {{fontSize: 17 + 'px'}}><strong>University of Rochester</strong></li>
-    <li className = "item">BS Computer Science</li>
-    <li className = "item">3.63/4.00 GPA</li>
+    <li className = "item">BA Computer Science</li>
+    <li className = "item">3.4/4.0 GPA</li>
     <br></br>
-    <li className = "item"><strong>Awards: </strong>Dean's List, Dean's Scholarship for Academic Achievement</li>
-    <li className = "item"><strong>Coursework: </strong>Discrete Math, Data Structures and Algorithms, Data Mining, Formal Systems, Computational Statistics</li>
+    <li className = "item"><strong>Awards: </strong>Dean's List, Dean's Scholarship for Academic Achievement, UAA All Academic Recognition</li>
+    <li className = "item"><strong>Coursework: </strong>Discrete Math, Data Structures and Algorithms, Data Mining, Machine Learning, Artificial Intelligence</li>
     </ul>
     </div>
     <div className = "socials-2">
@@ -51,24 +51,88 @@ function Resume() {
   <div className = "kobe">
   <div className = "info">
     <ul className = "card">
-    <li className = "item"><strong>Languages: </strong>Java, Python, JavaScript, HTML, CSS, R</li>
-    <li className = "item"><strong>Frameworks: </strong>React, Express, Node.js, Git</li>
+    {/* <li className = "item"><strong>Languages: </strong>Java, Python, JavaScript, HTML, CSS, R</li> */}
+    {/* <li className = "item"><strong>Frameworks: </strong>React, Express, Node.js, Git</li> */}
     </ul>
     </div>
   </div>
   <br  id = "experience" ></br>
   <h2 className = "header" style = {{fontSize: 20 + 'px', fontFamily: "Andale Mono"}}><strong>EXPERIENCE</strong></h2>
   <hr className = "social-line"></hr>
+  <div className = "kobe">
+  <div className = "info">
+    <ul className = "card">
+<li className = "item" style = {{fontSize: 17 + 'px'}}><strong>University of Rochester</strong></li>
+<li className = "item"><em>DSCC 240: Data Mining</em></li>
 
+    <li className = "item">Teaching Assistant</li>
+
+    <li className = "item" >Rochester, NY</li>
+    <br></br>
+    <li className = "item">⚬ Held weekly office hours, graded assignments, and answered 60+ students' questions for DSC240: Data Mining</li>
+    
+    {/* <li className = "item">⚬ Something ab processing speeds?</li> */}
+    </ul>
+    </div>
+    <div className = "socials-2">
+    <ul className = "card">    
+      <li className = "item" >June 2022 - August 2022</li>
+    </ul>
+    </div>
+
+  </div>
+  
   <div className = "kobe">
   <div className = "info">
     <ul className = "card">
 <li className = "item" style = {{fontSize: 17 + 'px'}}><strong>Credit Suisse</strong></li>
-    <li className = "item">Summer Technology Analyst</li>
+<li className = "item"><em>AI/ML Team for Margin Services</em></li>
+
+    <li className = "item">Software Engineering Intern</li>
+
     <li className = "item" >New York, NY</li>
     <br></br>
-    <li className = "item">⚬ Placed on business analytics team; will be working on trade and settlement flow</li>
-    <li className = "item">⚬ COBOL, JCL, DB2, Mainframe</li>
+    <li className = "item">⚬ Trained XGBoost model using Python to identify relevant lines in margin call emails with 90% accuracy</li>
+    <li className = "item">⚬ Built NLP model for stakeholders with text summarization, named entity recognition, and semantic classification functionality</li>
+    <li className = "item">⚬ Developed and deployed full stack application and REST API for users to interface with model</li>
+    {/* <li className = "item">⚬ Something ab processing speeds?</li> */}
+    </ul>
+    </div>
+    <div className = "socials-2">
+    <ul className = "card">    
+      <li className = "item" >June 2022 - August 2022</li>
+    </ul>
+    </div>
+
+  </div>
+  <div className = "kobe">
+  <div className = "info">
+    <ul className = "card">
+<li className = "item" style = {{fontSize: 17 + 'px'}}><strong>University of Rochester</strong></li>
+  <li className = "item"><em>Dongmei Li Lab (Center for Research on Flavored Tobacco)</em></li>
+
+    <li className = "item">Data Science Research Assistant</li>
+    <li className = "item" >New York, NY</li>
+    <br></br>
+    <li className = "item">⚬ First-authored and published "Public Perceptions of Flavored Waterpipe Smoking on Twitter", in the International Journal of Environmental Research and Public Health</li>
+    <li className = "item">⚬ Used Python to research flavored tobacco products through application of sentiment analysis, time series analysis, named entity recognition, and data visualization on Twitter datasets with over 1.3 million tweets </li>
+    </ul>
+    </div>
+    <div className = "socials-2">
+    <ul className = "card">    
+      <li className = "item" >September 2021 - May 2023</li>
+    </ul>
+    </div>
+
+  </div>
+  <div className = "kobe">
+  <div className = "info">
+    <ul className = "card">
+<li className = "item" style = {{fontSize: 17 + 'px'}}><strong>Credit Suisse</strong></li>
+    <li className = "item">Product Management Intern</li>
+    <li className = "item" >New York, NY</li>
+    <br></br>
+    <li className = "item">⚬ Trade Processing Architecture</li>
     </ul>
     </div>
     <div className = "socials-2">
@@ -78,106 +142,7 @@ function Resume() {
     </div>
 
   </div>
-  <div className = "kobe">
-  <div className = "info">
-    <ul className = "card">
-<li className = "item" style = {{fontSize: 17 + 'px'}}><strong>University of Rochester Medical Center</strong></li>
-    <li className = "item">Research Assistant</li>
-    <li className = "item" >Rochester, NY</li>
 
-    <br></br>
-    <li className = "item">⚬ Researching early childhood development as part of ECHO UPSIDE project</li>
-    <li className = "item">⚬ Utilizing R packages to cleanse datasets for monthly uploads</li>
-    <li className = "item">⚬ Observational coding of sex-typical play and executive function tasks</li>
-    <li className = "item">⚬ Data entry and assisting project coordinators with project organization</li>
-    </ul>
-    </div>
-    <div className = "socials-2">
-    <ul className = "card">    
-      <li className = "item" >August 2020 - Present</li>
-    </ul>
-    </div>
-  </div>
-  <div className = "kobe">
-  <div className = "info">
-    <ul className = "card">
-<li className = "item" style = {{fontSize: 17 + 'px'}}><strong>University of Rochester</strong></li>
-    <li className = "item">LEAP Tutor</li>
-    <li className = "item" >Rochester, NY</li>
-
-    <br></br>
-    <li className = "item">⚬ Collaborated with team to form lesson plans and activities</li>
-    <li className = "item">⚬ Worked with students to stengthen foundations of math and reading</li>
-    <li className = "item">⚬ Assisted instructors with classroom activities</li>
-    </ul>
-    </div>
-    <div className = "socials-2">
-    <ul className = "card">    
-      <li className = "item" >September 2019 - Present</li>
-    </ul>
-    </div>
-  </div>
-  <div className = "kobe">
-  <div className = "info">
-    <ul className = "card">
-<li className = "item" style = {{fontSize: 17 + 'px'}}><strong>Kumon Learning Center</strong></li>
-    <li className = "item">Teacher's Assistant</li>
-    <li className = "item" >Walnut Creek, CA</li>
-
-    <br></br>
-    <li className = "item">⚬ Worked with students to strengthen foundations of math and reading</li>
-    <li className = "item">⚬ Graded student classwork and homework</li>
-    <li className = "item">⚬ Administered progress tests</li>
-    </ul>
-    </div>
-    <div className = "socials-2">
-    <ul className = "card">    
-      <li className = "item" >April 2018 - August 2020</li>
-    </ul>
-    </div>
-  </div>
-  <br id = "leadership"></br>
-  <h2 className = "header"style = {{fontSize: 20 + 'px', fontFamily: "Andale Mono"}}><strong>LEADERSHIP</strong></h2>
-  <hr className = "social-line"></hr>
-
-  <div className = "kobe">
-  <div className = "info">
-    <ul className = "card">
-<li className = "item" style = {{fontSize: 17 + 'px'}}><strong>Google Developers Students Club</strong></li>
-    <li className = "item">Workshop Coordinator</li>
-    <li className = "item" >Rochester, NY</li>
-    <br></br>
-    <li className = "item">⚬ Helped plan Flutter development curriculum for weekly workshops</li>
-    <li className = "item">⚬ Wrote live-code examples in Dart to demonstrate ListView and Navigation concepts</li>
-    </ul>
-    </div>
-    <div className = "socials-2">
-    <ul className = "card">    
-      <li className = "item" >October 2020 - December 2020</li>
-    </ul>
-    </div>
-
-  </div>
-  <div className = "kobe">
-  <div className = "info">
-    <ul className = "card">
-<li className = "item" style = {{fontSize: 17 + 'px'}}><strong>UR After Hours</strong></li>
-    <li className = "item">Web Developer</li>
-    <li className = "item" >Rochester, NY</li>
-
-    <br></br>
-    <li className = "item">⚬ Implemented UI redesign using React, Bootstrap, HTML, CSS, jQuery</li>
-    <li className = "item">⚬ Improved speed and responsiveness through implementing React Router</li>
-    <li className = "item">⚬ Update site information and fix bugs</li>
-    <li className = "item">⚬ Manage server and hosting setup on Heroku</li>
-    </ul>
-    </div>
-    <div className = "socials-2">
-    <ul className = "card">    
-      <li className = "item" >June 2020 - Present</li>
-    </ul>
-    </div>
-  </div>
     </div>
     </DocumentTitle>
   );

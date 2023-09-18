@@ -312,8 +312,8 @@ button {
   width: 100%;
   justify-items: center;
   align-items: center;
-  align-content: center;
-  background-image: url(./DSC_0332.JPG);
+  align-content: baseline;
+  background-image: url(./l2.jpeg);
   background-position: 15%;
   background-size: cover;
 }

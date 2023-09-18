@@ -44,13 +44,13 @@ function Nav() {
             <Link to = "/resume" style = {{textDecoration: 'none', color: "black"}}><p className = "resume">Resume</p></Link>
             {/* </HashRouter> */}
 
-              <Link to = "/jack_feliciano/resume#education" style = {{textDecoration: 'none'}}><p style = {{color: "blue"}}>Education</p></Link>
+              <HashLink to = "/resume#education" style = {{textDecoration: 'none'}}><p style = {{color: "blue"}}>Education</p></HashLink>
 
             {/* <HashRouter basename={process.env.PUBLIC_URL}> */}
-              <Link to = "/jack_feliciano/resume#skills" style = {{textDecoration: 'none'}}><p style = {{color: "blue"}}>Skills</p></Link>
+              <HashLink to = "/resume#skills" style = {{textDecoration: 'none'}}><p style = {{color: "blue"}}>Skills</p></HashLink>
             {/* </HashRouter> */}
             {/* <HashRouter basename={process.env.PUBLIC_URL}> */}
-              <Link to = "/jack_feliciano/resume#experience" style = {{textDecoration: 'none'}}><p style = {{color: "blue"}}>Experience</p></Link>                
+              <HashLink to = "/resume#experience" style = {{textDecoration: 'none'}}><p style = {{color: "blue"}}>Experience</p></HashLink>                
             {/* </HashRouter> */}
             </h2>
             {/* <h2 className = 'words'>  */}

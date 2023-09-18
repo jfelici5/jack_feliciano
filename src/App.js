@@ -18,12 +18,12 @@ function App() {
     <div className = "boody">
       <Nav/>
       <Switch>
-      <Route path = "/jack_feliciano/" exact component = {Home}/>
-      <Route path = "/jack_feliciano/resume" exact component = {Resume}/>
+      <Route path = "/" exact component = {Home}/>
+      <Route path = "/resume" exact component = {Resume}/>
       {/* <Route path = "/projects" exact component = {Projects}/> */}
-      <Route path = "/jack_feliciano/photos" exact component = {Photos}/>
-      <Route path = "/jack_feliciano/photos/incline" exact component = {Incline}/>
-      <Route path = "/jack_feliciano/photos/usopen" exact component = {USOpen}/>
+      <Route path = "/photos" exact component = {Photos}/>
+      <Route path = "/photos/incline" exact component = {Incline}/>
+      <Route path = "/photos/usopen" exact component = {USOpen}/>
 
       </Switch>
       <Foot/>
